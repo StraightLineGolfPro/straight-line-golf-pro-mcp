@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "straight-line-golf-pro-mcp"
+version = "1.0.0"
+description = "Read-only MCP access to current public Straight Line Golf Pro content"
+requires-python = ">=3.11"
+dependencies = ["mcp==2.0.0"]
+readme = "README.md"
+
+[project.scripts]
+slgp-mcp = "server:main"
+
+[project.urls]
+Homepage = "https://www.straightlinegolfpro.com"
+Repository = "https://github.com/underwriter-MXC/straight-line-golf-pro-mcp"
+
+[tool.setuptools]
+py-modules = ["server", "discovery"]
