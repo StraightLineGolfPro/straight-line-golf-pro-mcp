@@ -15,7 +15,7 @@ slgp-mcp = "server:main"
 
 [project.urls]
 Homepage = "https://www.straightlinegolfpro.com"
-Repository = "https://github.com/underwriter-MXC/straight-line-golf-pro-mcp"
+Repository = "https://github.com/StraightLineGolfPro/straight-line-golf-pro-mcp"
 
 [tool.setuptools]
 py-modules = ["server", "discovery"]

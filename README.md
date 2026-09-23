@@ -9,7 +9,7 @@ This public connector is derived from AI Atom Brain's website MCP build standard
 Requires Python 3.11 or newer. No website account or API key is needed.
 
 ```sh
-git clone https://github.com/underwriter-MXC/straight-line-golf-pro-mcp.git
+git clone https://github.com/StraightLineGolfPro/straight-line-golf-pro-mcp.git
 cd straight-line-golf-pro-mcp
 python3 -m venv .venv
 .venv/bin/python -m pip install .
