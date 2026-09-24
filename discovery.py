@@ -13,8 +13,10 @@ HOST = urlsplit(SITE).netloc
 CONFIG = {'name': 'StraightLineGolfPro', 'sitemap': '/sitemap.xml',
           'private_paths': ['/booking-confirmation', '/member', '/members', '/private',
                             '/knowledge', '/preview', '/sign-in', '/sign-up', '/settings',
-                            '/billing', '/callback', '/onboarding', '/organization', '/organizations']}
-BOTS = ['Googlebot','bingbot','OAI-SearchBot','PerplexityBot','Claude-SearchBot','GPTBot','ClaudeBot']
+                            '/billing', '/callback', '/onboarding', '/organization', '/organizations',
+                            '/signup', '/membership/history', '/reset-password', '/forgot-password']}
+BOTS = ['Googlebot','bingbot','OAI-SearchBot','ChatGPT-User','PerplexityBot','Perplexity-User',
+        'Claude-SearchBot','Claude-User','GPTBot','ClaudeBot','Google-Extended']
 MAX_BODY = 5000000
 PRIVATE = re.compile(r'/(?:api|admin|account|auth|login|dashboard|staff|drafts|staged|uploads?|reports?|checkout|thank-you)(?:/|$)', re.I)
 

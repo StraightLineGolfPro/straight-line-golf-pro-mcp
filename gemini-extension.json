@@ -1,0 +1,11 @@
+{
+  "name": "straight-line-golf-pro-mcp",
+  "version": "1.1.0",
+  "description": "Find and cite current public Straight Line Golf Pro coaching and learning resources.",
+  "mcpServers": {
+    "straight-line-golf-pro": {
+      "httpUrl": "https://straight-line-golf-pro-mcp.vercel.app/mcp",
+      "timeout": 60000
+    }
+  }
+}
