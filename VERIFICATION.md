@@ -17,4 +17,6 @@ Public endpoint https://straight-line-golf-pro-mcp.vercel.app/mcp passed cold re
 
 Vercel deployment dpl_7jGPKKi89mLBB4z1zMDPwrjqG5oA. The first deployment's legacy rewrite caused 404s; the verified configuration uses `tool.vercel.entrypoint = "api.index:app"` without catch-all rewrites. MCP SDK 2.0.0's Streamable HTTP client uses `httpx2` and yields two streams.
 
-These are protocol and synthetic crawler tests, not ChatGPT account testing, genuine crawler visits, indexing or directory approval. See LAUNCH-STATUS.md for current distribution status. Earlier observations below describe version 1.0.0.
+These are protocol and synthetic crawler tests, not ChatGPT account testing, genuine crawler visits, indexing or directory approval. See LAUNCH-STATUS.md for current distribution status. Earlier observations above describe version 1.0.0 and are superseded where this release changes behavior.
+
+The official Registry API independently returned version 1.1.0 active/latest after successful GitHub Actions run 35938500234. Website source cdad5e1 was promoted as dpl_DzNwkqVTYz8Nyu1cC5GvCc2ADQ7R; 33 hostname/page/crawler checks and 11 referenced asset checks passed. The new connection guide was visually inspected. The public sitemap now contains 44 pages. IndexNow accepted all 44 distinct URLs across two runs with HTTP 200; those receipts do not establish indexing. Search Atlas recrawl remains in progress; no final post-release score is claimed.
